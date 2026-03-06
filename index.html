@@ -142,20 +142,43 @@
         </div>
     </div>
 
-    <script>
+   <script>
         document.addEventListener("DOMContentLoaded", function() {
+            // --- ЧАСТЬ 1: Подгрузка первой картинки (остается без изменений) ---
             const urlParams = new URLSearchParams(window.location.search);
-            
             const campaignId = urlParams.get('ad_campaign_id') || urlParams.get('campaignid');
             const creativeId = urlParams.get('creative_id');
 
             if (campaignId && creativeId) {
-                // Находим ПЕРВУЮ картинку в колонке
                 const topImage = document.querySelector('.background-grid .image-container:first-child .image');
-                
                 if (topImage) {
-    topImage.src = `https://girlsimg.igennos.store/${campaignId}/${creativeId}.webp`;
-}
+                    topImage.src = `https://girlsimg.igennos.store/${campaignId}/${creativeId}.webp`;
+                }
+            }
+
+            // --- ЧАСТЬ 2: Интерактив кнопки Continue ---
+            const continueBtn = document.querySelector('.continue-btn');
+            const modal = document.getElementById('modal');
+            const allImages = document.querySelectorAll('.image'); // Находим все картинки
+            const overlayEyes = document.querySelectorAll('.overlay-eye'); // Находим все иконки глаз
+
+            if (continueBtn) {
+                continueBtn.addEventListener('click', function() {
+                    // 1. Скрываем модальное окно с текстом
+                    if (modal) {
+                        modal.style.display = 'none';
+                    }
+                    
+                    // 2. Проходимся по всем картинкам и удаляем классы размытия
+                    allImages.forEach(function(img) {
+                        img.classList.remove('blurred', 'light-blur');
+                    });
+
+                    // 3. Прячем иконки "глаза" для максимального погружения
+                    overlayEyes.forEach(function(eye) {
+                        eye.style.display = 'none';
+                    });
+                });
             }
         });
     </script>
