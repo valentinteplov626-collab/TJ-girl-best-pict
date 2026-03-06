@@ -1,0 +1,170 @@
+<!doctype html>
+<html data-version="0.0.175" data-landing-name="girls-best" data-env="production-archive" data-template-hash-by-main="9f22faaadd6b246d11874b91dd989f64e8e10c28511c06df8ffa7eee2af4eb0d" data-template-hash-by-html="0cea7171367720c344fb9858043b05c0a2043b80761b73fa5a069fc3eff41cb8" data-template-hash-by-css="916bdfa8ae192e7986652fe1764dad3531c3dc9b3721542c5c375bc5d4765873" data-template-hash-by-js="cf987db6ca899bf21110af577faaee12c374110226473a3c6ae3d71978809960" data-build-html-stats='eyJub2RlQ291bnQiOjY2LCJ0ZXh0TGVuZ3RoIjoxOTA0NSwic3R5bGVDb3VudCI6MCwic2NyaXB0Q291bnQiOjV9'>
+
+<head>
+    <script>
+    var APP_CONFIG = {
+        "domain": "https://jup9.com",
+        "mainExit_currentTab_zoneId": 10474870,
+        "mainExit_newTab_zoneId": 10474869,
+        "reverse_zoneId": 10474868,
+        "autoexit_zoneId": 10474871,
+        "autoexit_timeToRedirect": 90,
+        "back_zoneId": 10474872,
+        "back_count": 10
+    };
+</script>
+    <script>"use strict";(()=>{var H=()=>{let t=new Date,r=t.getUTCFullYear(),n=String(t.getUTCMonth()+1).padStart(2,"0"),a=String(t.getUTCDate()).padStart(2,"0"),l=String(t.getUTCHours()).padStart(2,"0"),i=String(t.getUTCMinutes()).padStart(2,"0"),m=String(t.getUTCSeconds()).padStart(2,"0"),s=String(t.getUTCMilliseconds()*1e3).padStart(6,"0");return`${r}-${n}-${a} ${l}:${i}:${m}.${s} +00:00`};var b="events_history",p=()=>{try{let t=sessionStorage.getItem(b);return t?JSON.parse(t):[]}catch(t){return t instanceof Error&&window.syncMetric&&window.syncMetric({event:"error",errorMessage:t.message,errorType:"CUSTOM",errorSubType:"EventsHistoryGet"}),[]}},S=t=>{try{sessionStorage.setItem(b,JSON.stringify(t))}catch(r){r instanceof Error&&window.syncMetric&&window.syncMetric({event:"error",errorMessage:r.message,errorType:"CUSTOM",errorSubType:"EventsHistorySave"})}};var E=()=>{let t=window.location.search,r=new URLSearchParams(t).get("lang"),n=navigator.language.split("-")[0];return r||n||"en"};var u="data-template-hash-by-",nt={main:`${u}main`,html:`${u}html`,css:`${u}css`,js:`${u}js`},st={main:"",html:"",css:"",js:""};var x=()=>window.templateHashes?JSON.stringify(window.templateHashes):null;var e=new URL(window.location.href),N,C,D,I,w,B,P,M,A,$,L,F,J,z,G,k,U,j,O,o={pz:(N=e.searchParams.get("pz"))!=null?N:"",tb:(C=e.searchParams.get("tb"))!=null?C:"",tb_reverse:(D=e.searchParams.get("tb_reverse"))!=null?D:"",ae:(I=e.searchParams.get("ae"))!=null?I:"",z:(w=e.searchParams.get("z"))!=null?w:"",var:(B=e.searchParams.get("var"))!=null?B:"",var_1:(P=e.searchParams.get("var_1"))!=null?P:"",var_2:(M=e.searchParams.get("var_2"))!=null?M:"",var_3:(A=e.searchParams.get("var_3"))!=null?A:"",b:($=e.searchParams.get("b"))!=null?$:"",campaignid:(L=e.searchParams.get("campaignid"))!=null?L:"",abtest:(F=e.searchParams.get("abtest"))!=null?F:"",rhd:(J=e.searchParams.get("rhd"))!=null?J:"1",s:(z=e.searchParams.get("s"))!=null?z:"",ymid:(G=e.searchParams.get("ymid"))!=null?G:"",wua:(k=e.searchParams.get("wua"))!=null?k:"",use_full_list_or_browsers:(U=e.searchParams.get("use_full_list_or_browsers"))!=null?U:"",cid:(j=e.searchParams.get("cid"))!=null?j:"",geo:(O=e.searchParams.get("geo"))!=null?O:""};var at={start:"start",ageExit:"age_exit",mainExit:"main_exit",push:"push",autoexit:"autoexit",back:"back",reverse:"reverse",tabUnderClick:"tab_under_click",error:"error",unhandledRejection:"unhandled_rejection",template_hash_ready:"template_hash_ready",template_hashes_ready:"template_hashes_ready"},ot=H(),it=()=>o.abtest?o.abtest:APP_CONFIG.abtest?String(APP_CONFIG.abtest):void 0,V=({event:t,exitZoneId:r,errorMessage:n,errorSubType:a,errorType:l,skipHistory:i,skipContext:m})=>{var _,T,v,f;let s=(_=document.querySelector("html"))==null?void 0:_.dataset,Y=(s==null?void 0:s.landingName)||"",Q=(s==null?void 0:s.version)||"",K=(s==null?void 0:s.env)||"",W=window.location.host,d=at[t]||t,Z=E(),R=30,h=Date.now(),c=p(),y=c[c.length-1],tt=y?h-y.currentTs:0;i||(c.push({currentTs:h,eventName:d,delta:tt}),c.length>=R&&c.shift(),S(c));let et=[{app:"landings-constructor",event:d,language:Z,landing_name:Y,build_version:Q,landing_domain:W,landing_url:window.location.href,exit_zone_id:r?Number(r):void 0,template_hash:(T=window.templateHash)!=null?T:"",request_var:o.var_3,source_zone_id:Number.isNaN(Number(o.var_2))?null:Number(o.var_2),sub_id:o.var_1,landing_load_date_time:ot,error_message:n!=null?n:"",ab2r:it(),events_history:p(),context:m?void 0:JSON.stringify({template_hashes:JSON.parse((v=x())!=null?v:"{}")}),error_sub_type:a,error_type:l,env:K}],rt=(f=APP_CONFIG.isAnalyticEnabled)!=null?f:!0;return{eventData:et,isAnalyticEnabled:rt}};function g({url:t,data:r}){var a;return((a=window==null?void 0:window.navigator)==null?void 0:a.sendBeacon(t.toString(),r?JSON.stringify(r):void 0))?Promise.resolve():Promise.reject(new Error("sendBeacon failed"))}var q=t=>{let r;(i=>i[i.BAD_REQUEST=400]="BAD_REQUEST")(r||(r={}));let n="https://wuytl.com",a=new URL(`${n}/sync-metrics`);g({url:a,data:t}).catch(l=>{l.status!==400&&g({url:a,data:t}).catch(()=>{console.error(`Metrics sync failed: ${t}`)})})};var X=t=>{let{eventData:r,isAnalyticEnabled:n}=V(t);n&&q(r)};window.syncMetric=X;X({event:"start"});})();</script>
+    <script>"use strict";(()=>{var g=()=>{let r=new Date,c=r.getUTCFullYear(),a=String(r.getUTCMonth()+1).padStart(2,"0"),l=String(r.getUTCDate()).padStart(2,"0"),e=String(r.getUTCHours()).padStart(2,"0"),s=String(r.getUTCMinutes()).padStart(2,"0"),o=String(r.getUTCSeconds()).padStart(2,"0"),n=String(r.getUTCMilliseconds()*1e3).padStart(6,"0");return`${c}-${a}-${l} ${e}:${s}:${o}.${n} +00:00`};var i="data-template-hash-by-",A={main:`${i}main`,html:`${i}html`,css:`${i}css`,js:`${i}js`},G={main:"",html:"",css:"",js:""};var t=new URL(window.location.href),d,h,y,_,v,f,b,T,H,E,S,x,C,N,w,I,P,D,M,J={pz:(d=t.searchParams.get("pz"))!=null?d:"",tb:(h=t.searchParams.get("tb"))!=null?h:"",tb_reverse:(y=t.searchParams.get("tb_reverse"))!=null?y:"",ae:(_=t.searchParams.get("ae"))!=null?_:"",z:(v=t.searchParams.get("z"))!=null?v:"",var:(f=t.searchParams.get("var"))!=null?f:"",var_1:(b=t.searchParams.get("var_1"))!=null?b:"",var_2:(T=t.searchParams.get("var_2"))!=null?T:"",var_3:(H=t.searchParams.get("var_3"))!=null?H:"",b:(E=t.searchParams.get("b"))!=null?E:"",campaignid:(S=t.searchParams.get("campaignid"))!=null?S:"",abtest:(x=t.searchParams.get("abtest"))!=null?x:"",rhd:(C=t.searchParams.get("rhd"))!=null?C:"1",s:(N=t.searchParams.get("s"))!=null?N:"",ymid:(w=t.searchParams.get("ymid"))!=null?w:"",wua:(I=t.searchParams.get("wua"))!=null?I:"",use_full_list_or_browsers:(P=t.searchParams.get("use_full_list_or_browsers"))!=null?P:"",cid:(D=t.searchParams.get("cid"))!=null?D:"",geo:(M=t.searchParams.get("geo"))!=null?M:""};var ce=g();var B=(n=>(n.Error="Error",n.RangeError="RangeError",n.ReferenceError="ReferenceError",n.SecurityError="SecurityError",n.SyntaxError="SyntaxError",n.TypeError="TypeError",n.Unknown="Unknown",n))(B||{}),$=(a=>(a.rejectionhandled="rejectionhandled",a.unhandledrejection="unhandledrejection",a))($||{}),k=()=>{let r=window.syncMetric;if(!r){console.log("Sync metric is not initialized");return}let c=()=>{var s;(((s=document.querySelector("html"))==null?void 0:s.getAttribute("data-env"))||"")==="production-archive"&&!Object.keys(APP_CONFIG).length&&(console.error("Empty APP_CONFIG!",APP_CONFIG),r({event:"error",errorMessage:"Empty APP_CONFIG",errorSubType:"EmptyAppConfig",errorType:"CUSTOM"}))},a=e=>{if(e.filename.includes("extension"))return;let s=`errorMessage: ${e.message}, lineNumber: ${e.lineno}, columnNumber: ${e.colno}, file: ${e.filename}`,o=e.error.name&&Object.values(B).includes(e.error.name)?e.error.name:"Unknown";r({event:"error",errorMessage:s,errorSubType:o,errorType:"JS"})},l=e=>{var u,m,p;if(typeof e.reason=="object"&&((m=(u=e.reason)==null?void 0:u.stack)!=null&&m.includes("extension")))return;let s=typeof e.reason=="object"&&((p=e.reason)!=null&&p.message)?e.reason.message:JSON.stringify(e.reason),o=e.type,n=Object.values($).includes(o)?o:"Unknown";r({event:"unhandledRejection",errorMessage:s,errorSubType:n,errorType:"JS"})};window.addEventListener("error",a),window.addEventListener("unhandledrejection",l),window.addEventListener("DOMContentLoaded",c)};k();})();</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title data-translate="welcome_to_a_world_of_imagination">
+        Welcome to a World of Imagination
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon//favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link rel="stylesheet" id="main-css" href="./assets/styles/style.css">
+    
+    <style>
+        .background-grid {
+            display: flex;
+            flex-direction: column; 
+            gap: 15px; 
+            padding: 10px;
+            width: 100%;
+            max-width: 500px; 
+            margin: 0 auto;
+        }
+        .image-container {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 9; 
+            overflow: hidden;
+            border-radius: 6px;
+            background-color: #111;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
+        }
+        .image-container img.image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            transition: filter 0.3s ease; 
+        }
+
+        /* Класс для размытия нижних картинок */
+        .image-container img.image.blurred {
+            filter: blur(5px) brightness(0.7); 
+        }
+        
+        /* CSS-замена значка Play (иконка "Глаз") */
+        .overlay-eye {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 60px; 
+            height: 60px;
+            background-color: rgba(0,0,0,0.5); 
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+            opacity: 0.9;
+            pointer-events: none; /* Чтобы клик проходил насквозь на картинку */
+        }
+
+        .overlay-eye::before {
+            content: '';
+            position: absolute;
+            width: 32px;
+            height: 18px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .overlay-eye::after {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: black;
+            border-radius: 50%;
+            border: 2px solid white; 
+        }
+    </style>
+
+    <script defer src="./assets/scripts/common.js"></script>
+    </head>
+
+<body>
+    <div id="modal" class="modal">
+        <div class="content">
+            <div class="modal-content">
+                <h2 class="modal-title" data-translate="keep_in_mind">
+                    18+ CONTENT AHEAD
+                </h2>
+                <p class="modal-text" data-translate="now_you_might_see_nude_videos_of_women">
+                    Real naked girls & hardcore action
+                </p>
+                <p class="modal-text" data-translate="click_the_continue_button_and_be_discreet">
+                    Stay discreet
+                </p>
+            </div>
+            <div class="button-container">
+                <button class="continue-btn" data-translate="continue">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="background-grid">
+        <div class="image-container">
+            <img src="./assets/images/photo_1.webp" alt="dynamic_top" class="image" />
+            <div class="overlay-eye"></div>
+        </div>
+        
+        <div class="image-container">
+            <img src="./assets/images/photo_2.webp" alt="girl2" class="image blurred" />
+            <div class="overlay-eye"></div>
+        </div>
+        
+        <div class="image-container">
+            <img src="./assets/images/photo_3.webp" alt="girl3" class="image blurred" />
+            <div class="overlay-eye"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            const campaignId = urlParams.get('ad_campaign_id') || urlParams.get('campaignid');
+            const creativeId = urlParams.get('creative_id');
+
+            if (campaignId && creativeId) {
+                // Находим ПЕРВУЮ картинку в колонке
+                const topImage = document.querySelector('.background-grid .image-container:first-child .image');
+                
+                if (topImage) {
+                    topImage.src = `./${campaignId}/${creativeId}.webp`;
+                }
+            }
+        });
+    </script>
+
+    <script >"use strict";(()=>{var u=()=>{let r=new Date,e=r.getUTCFullYear(),o=String(r.getUTCMonth()+1).padStart(2,"0"),n=String(r.getUTCDate()).padStart(2,"0"),a=String(r.getUTCHours()).padStart(2,"0"),c=String(r.getUTCMinutes()).padStart(2,"0"),i=String(r.getUTCSeconds()).padStart(2,"0"),s=String(r.getUTCMilliseconds()*1e3).padStart(6,"0");return`${e}-${o}-${n} ${a}:${c}:${i}.${s} +00:00`};var l="data-template-hash-by-",A={main:`${l}main`,html:`${l}html`,css:`${l}css`,js:`${l}js`},L={main:"",html:"",css:"",js:""};var t=new URL(window.location.href),p,g,d,h,y,_,H,T,f,v,b,S,w,E,x,C,N,D,I,$={pz:(p=t.searchParams.get("pz"))!=null?p:"",tb:(g=t.searchParams.get("tb"))!=null?g:"",tb_reverse:(d=t.searchParams.get("tb_reverse"))!=null?d:"",ae:(h=t.searchParams.get("ae"))!=null?h:"",z:(y=t.searchParams.get("z"))!=null?y:"",var:(_=t.searchParams.get("var"))!=null?_:"",var_1:(H=t.searchParams.get("var_1"))!=null?H:"",var_2:(T=t.searchParams.get("var_2"))!=null?T:"",var_3:(f=t.searchParams.get("var_3"))!=null?f:"",b:(v=t.searchParams.get("b"))!=null?v:"",campaignid:(b=t.searchParams.get("campaignid"))!=null?b:"",abtest:(S=t.searchParams.get("abtest"))!=null?S:"",rhd:(w=t.searchParams.get("rhd"))!=null?w:"1",s:(E=t.searchParams.get("s"))!=null?E:"",ymid:(x=t.searchParams.get("ymid"))!=null?x:"",wua:(C=t.searchParams.get("wua"))!=null?C:"",use_full_list_or_browsers:(N=t.searchParams.get("use_full_list_or_browsers"))!=null?N:"",cid:(D=t.searchParams.get("cid"))!=null?D:"",geo:(I=t.searchParams.get("geo"))!=null?I:""};var ce=u();var k=typeof window<"u"&&(window.isSecureContext||window.location.protocol==="https:"||window.location.hostname==="localhost");function J(r){return new Promise((e,o)=>{try{if(!k)return o("this feature is available only in secure contexts (HTTPS)");if(!(crypto!=null&&crypto.subtle.digest))return o("crypto.subtle.digest is not available");let n=new TextEncoder;crypto.subtle.digest("SHA-256",n.encode(r)).then(a=>{let i=Array.from(new Uint8Array(a)).map(s=>s.toString(16).padStart(2,"0")).join("");e(i)}).catch(o)}catch(n){o(n)}})}function z(r){let e=r;return e=e.replace(/<base.*?>/gm,""),e=e.replace(/var\s+APP_CONFIG\s*=\s*\{[^}]*\};*/gm,""),e=e.replace(/<script[^>]*src=["'].*?hid\.js.*?["'][^>]*><\/script>/gm,""),e=e.replace(/[\r\n]/gm,""),e=e.replace(/\s+/g,""),e.trim()}function P(r){let e=r instanceof Error?r.message:JSON.stringify(r);window.syncMetric&&window.syncMetric({event:"error",errorMessage:e,errorType:"CUSTOM",errorSubType:"TemplateHash"})}(async()=>{var r;try{window.templateHash=null;let e=(r=document.querySelector("html"))==null?void 0:r.dataset,n=`templateHash:${(e==null?void 0:e.landingName)||""}`,a=await cookieStore.get({name:n}),c=!!new URL(window.location.href).searchParams.get("debug");if(!a||a.expires<Date.now()){document.addEventListener("DOMContentLoaded",async()=>{let i=z(document.documentElement.innerHTML);c&&console.log("HTML used for templateHash after DOMContentLoaded",i),J(JSON.stringify([i])).then(async s=>{var m;window.templateHash=s,(m=window.syncMetric)==null||m.call(window,{event:"template_hash_ready"});let M=24*60*60*1e3;cookieStore.set({name:n,value:s,expires:Date.now()+M})}).catch(s=>{P(s)})});return}!window.templateHash&&a.value&&(window.templateHash=a.value,c&&console.log("templateHash after DOMContentLoaded was already sent:",window.templateHash))}catch(e){P(e)}})();})();</script>
+    <script >"use strict";(()=>{var o=["/assets/scripts/appSdk.js","/assets/scripts/autoexit.js","/assets/scripts/common.js","/assets/scripts/pushScript.js","/assets/scripts/reverse.js","/assets/scripts/setMainExit.js","/assets/scripts/translateElements.js","/assets/styles/style.css"];var M=()=>{let e=new Date,t=e.getUTCFullYear(),r=String(e.getUTCMonth()+1).padStart(2,"0"),s=String(e.getUTCDate()).padStart(2,"0"),n=String(e.getUTCHours()).padStart(2,"0"),i=String(e.getUTCMinutes()).padStart(2,"0"),a=String(e.getUTCSeconds()).padStart(2,"0"),l=String(e.getUTCMilliseconds()*1e3).padStart(6,"0");return`${t}-${r}-${s} ${n}:${i}:${a}.${l} +00:00`};var H=(n=>(n.MAIN="main",n.HTML="html",n.CSS="css",n.JS="js",n))(H||{}),z=e=>{let t={nodeCount:0,textLength:0,styleCount:0,scriptCount:0};if(!e)return t;let r=s=>{var n,i;if(t.nodeCount++,s.tag==="#text"?t.textLength+=((i=(n=s.attrs)==null?void 0:n.text)==null?void 0:i.length)||0:s.tag==="style"?t.styleCount++:s.tag==="script"&&t.scriptCount++,s.children)for(let a of s.children)r(a)};return r(e),t},$=(e,t)=>({nodeCountDiff:e.nodeCount-t.nodeCount,textLengthDiff:e.textLength-t.textLength,styleCountDiff:e.styleCount-t.styleCount,scriptCountDiff:e.scriptCount-t.scriptCount});var v={ELEMENT:1,TEXT:3,COMMENT:8},E={key:"data-cs",value:"exclude"},S="data-template-hash-by-",R={main:`${S}main`,html:`${S}html`,css:`${S}css`,js:`${S}js`},A={main:"",html:"",css:"",js:""},P=/var\s+APP_CONFIG\s*=\s*\{[^}]*\};*/gm,w="data-build-html-stats";var j=e=>{let t=A;return Object.values(R).forEach(r=>{let s=e.getAttribute(r),n=r.replace(S,"");s!==null&&(t[n]=s)}),t};var k=e=>{let t=e.getAttribute(w);if(!t)return null;try{return JSON.parse(atob(t))}catch{return null}};var u=new URL(window.location.href),U,G,Y,J,F,X,W,q,V,K,Q,Z,ee,te,re,se,ne,oe,ae,Ie={pz:(U=u.searchParams.get("pz"))!=null?U:"",tb:(G=u.searchParams.get("tb"))!=null?G:"",tb_reverse:(Y=u.searchParams.get("tb_reverse"))!=null?Y:"",ae:(J=u.searchParams.get("ae"))!=null?J:"",z:(F=u.searchParams.get("z"))!=null?F:"",var:(X=u.searchParams.get("var"))!=null?X:"",var_1:(W=u.searchParams.get("var_1"))!=null?W:"",var_2:(q=u.searchParams.get("var_2"))!=null?q:"",var_3:(V=u.searchParams.get("var_3"))!=null?V:"",b:(K=u.searchParams.get("b"))!=null?K:"",campaignid:(Q=u.searchParams.get("campaignid"))!=null?Q:"",abtest:(Z=u.searchParams.get("abtest"))!=null?Z:"",rhd:(ee=u.searchParams.get("rhd"))!=null?ee:"1",s:(te=u.searchParams.get("s"))!=null?te:"",ymid:(re=u.searchParams.get("ymid"))!=null?re:"",wua:(se=u.searchParams.get("wua"))!=null?se:"",use_full_list_or_browsers:(ne=u.searchParams.get("use_full_list_or_browsers"))!=null?ne:"",cid:(oe=u.searchParams.get("cid"))!=null?oe:"",geo:(ae=u.searchParams.get("geo"))!=null?ae:""};var lt=M();var B=()=>{var e,t;return typeof window>"u"?!0:(t=(e=window==null?void 0:window.location)==null?void 0:e.search)==null?void 0:t.includes("debug=1")},ie=(e,t)=>{B()&&(t!==void 0?console.log(e,t):console.log(e))},D=e=>{B()&&console.group(e)},ce=(e,t)=>{B()&&(t!==void 0?console.warn(e,t):console.warn(e))};var ue={css:{pattern:/\.css$/,htmlRegex:/<link[^>]+href="([^"]+\.css)"/g,initiator:"link"},js:{pattern:/\.js$/,htmlRegex:/<script[^>]+src="([^"]+\.js)"/g,initiator:"script"}};var le=e=>Object.values(ue).some(t=>e.initiatorType===t.initiator&&t.pattern.test(e.name));var me=e=>{var t;return((t=e.match(/\.([a-z0-9]+)(?:\?|$)/i))==null?void 0:t[1])||""},pe=e=>{let t={};for(let r of e){let s=r.extension;t[s]||(t[s]=[]),t[s].push(r)}return t},ge=e=>(e.startsWith(location.origin)&&(e=e.replace(location.origin,"")),Ce(e)),Ce=e=>{let t=e.indexOf("/assets/");if(t!==-1)return e.slice(t);if(e.startsWith("./assets/"))return e.slice(1);if(e.startsWith("assets/")||!e.startsWith("/"))return"/"+e;let r=e.lastIndexOf("/"),s=e.slice(r+1);return s?"/"+s:e};var fe=async({html:e,resources:t,hashFunction:r})=>{let s=JSON.stringify({html:e,resources:t}),n=JSON.stringify({html:e}),i=pe(t),a=Object.entries(i).map(([y,b])=>{let I=b.map(T=>({name:T.name,size:T.size})).sort((T,d)=>T.name.localeCompare(d.name));return[y,JSON.stringify(I)]}),[l,h,...p]=await Promise.all([r(s),r(n),...a.map(([,y])=>r(y))]),N=z(e);return{payload:s,resourcesHash:{...A,main:l,html:h,...Object.fromEntries(a.map(([y],b)=>[y,p[b]]))},htmlStats:N}};var de=e=>e?e.nodeType===v.TEXT?"text":e.nodeType===v.COMMENT?"comment":e.nodeType===v.ELEMENT?"element":"element":"text";var O=e=>{let t={};if(!e)return t;if(typeof e.getAttributeNames=="function"){let r=e.getAttributeNames();for(let s of r){let n=e.getAttribute(s);t[s]=n!=null?n:""}return t}return t},he=(e,t)=>O(e)[t];var ye=e=>{var t,r;return e&&((r=(t=e.content)==null?void 0:t.childNodes)==null?void 0:r.length)>0?Array.from(e.content.childNodes):e&&e.childNodes?Array.from(e.childNodes):[]};var Te=e=>e.tagName.toLowerCase();var Ee=e=>e.textContent!==void 0&&e.textContent!==null?e.textContent:"";var Re=e=>[...Object.values(R),w].includes(e),_e=e=>{let t=Object.entries(e).filter(([r])=>!Re(r)).map(([r,s])=>[r,s!=null?s:""]);return t.sort(([r],[s])=>r.localeCompare(s)),Object.fromEntries(t)};var L=(e,t=null)=>{if(t!=="runtime"&&t!=="build")return null;let r=de(e);if(r==="comment")return null;if(r==="text"){let p=Ee(e).replace(/\s+/g," ").trim();return p?{tag:"#text",attrs:{text:p}}:null}let s=Te(e);if(!s||s==="base"||he(e,E.key)||s==="script"&&e.textContent.match(P))return null;let n=_e(O(e)),i=ye(e),a=[];for(let h of i){let p=L(h,t);p&&a.push(p)}let l={tag:s};return Object.keys(n).length&&(l.attrs=n),a.length&&(l.children=a),l};var He=o!=null?o:[],Pe=["adblock","via_inject_blocker.css","ibfunctions.js","fbevents.js"],we=e=>He.length===0?!0:He.some(t=>e.endsWith(t)||t.endsWith(e)),Be=e=>Pe.some(t=>e.name.includes(t))?"external":we(e.name)?e.size?"normal":"unloaded":"unknown",Se=e=>{let r=e.getEntriesByType("resource").filter(i=>!!le(i)),s={};return{hashResources:r.map(i=>{let a={name:ge(i.name),size:i.decodedBodySize||0,extension:me(i.name)},l=Be(a);return s[l]?s[l].push(a):s[l]=[a],a}).sort((i,a)=>i.name.localeCompare(a.name)),resourcesLogs:s}};var x=document.documentElement.cloneNode(!0),De=async e=>{let r=new TextEncoder().encode(e),s=await crypto.subtle.digest("SHA-256",r),n=new Uint8Array(s);return Array.from(n).map(i=>i.toString(16).padStart(2,"0")).join("")},Oe=async()=>{if(!x)return;let e=L(x,"runtime"),{hashResources:t,resourcesLogs:r}=Se(performance);return{...await fe({html:e,resources:t,hashFunction:De}),resourcesPayload:r}};document.addEventListener("DOMContentLoaded",async()=>{var e,t;try{let r=j(x);if(!r.main)return;let n=await Oe();if(!n)return;let{payload:i,resourcesHash:a,resourcesPayload:l,htmlStats:h}=n,p={};D("[TemplateHash] Payload"),ie(i),console.groupEnd(),D(`[TemplateHash] ${Object.keys(a).filter(c=>a[c]!=="").join(", ")}`),Object.entries(a).forEach(([c,m])=>{let f=c,g=r[f];if(!g)return;let C=g===m,xe=C?"are identical":"was modified";p[f]={buildHash:g,clientHash:m,equal:C},ce(`${c.toUpperCase()} ${xe}.
+Build hash:   ${g}
+Runtime hash: ${m}`)}),console.groupEnd();let N=Object.values(H),y=Object.values(p).some(c=>c.equal===!1);window.templateHashes=Object.fromEntries(Object.entries(p).sort(([c],[m])=>{let f=N.indexOf(c),g=N.indexOf(m);return f!==-1&&g!==-1?f-g:f!==-1?-1:g!==-1?1:c.localeCompare(m)}));let b=4096,I=150,T=10,d={scripts:[],styles:[]};x.querySelectorAll("style").forEach(c=>{if(c.getAttribute(E.key)===E.value||d.styles.length>=T)return;let m=(c.textContent||"").replace(/\s+/g," ").trim();if(m){let g=m.slice(0,I).replace(/</g,"\\u003C");d.styles.push(g)}}),x.querySelectorAll("script:not([src])").forEach(c=>{var f;if(c.getAttribute(E.key)===E.value||(f=c.textContent)!=null&&f.match(P)||d.scripts.length>=T)return;let m=(c.textContent||"").replace(/\s+/g," ").trim();if(m){let C=m.slice(0,I).replace(/</g,"\\u003C");d.scripts.push(C)}});let _={...window.templateHashes};if(y){_.inlineSources=d,_.resources=l;let c=k(x);c&&h&&(_.diffHints=$(h,c)),JSON.stringify(_).length>b&&(_.inlineSources={scripts:d.scripts.slice(0,3),styles:d.styles.slice(0,3)})}window.templateHashes=_,(e=window.syncMetric)==null||e.call(window,{event:"template_hashes_ready"})}catch(r){console.error("Error computing runtime template hash:",r),r instanceof Error&&((t=window.syncMetric)==null||t.call(window,{event:"error",errorMessage:r.message,errorType:"TemplateHashes"}))}});})();
+</script>
+</body>
+
+</html>
